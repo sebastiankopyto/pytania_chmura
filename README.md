@@ -9,13 +9,13 @@ a) prywatna
 
 b) hostowana
 
-c) publiczna
+**c) publiczna**
 
 <br/>
 
 *2. Jaki model usług daje największą kontrolę nad zasobami?*
 
-a) IaaS
+**a) IaaS**
 
 b) PaaS
 
@@ -29,7 +29,7 @@ a) IaaS
 
 b) PaaS
 
-c) SaaS
+**c) SaaS**
 
 <br />
 
@@ -37,7 +37,7 @@ c) SaaS
 
 a) IaaS
 
-b) PaaS
+**b) PaaS**
 
 c) SaaS
 
@@ -45,7 +45,7 @@ c) SaaS
 
 *5. Co decyduje o izolowaniu środowisk klientów w chmurze Azure?*
 
-a) usługa Azure Fabric
+**a) usługa Azure Fabric**
 
 b) podmiot
 
@@ -57,7 +57,7 @@ c) subskrypcja
 
 a) usługa Azure Fabric
 
-b) podmiot
+**b) podmiot**
 
 c) subskrypcja
 
@@ -65,7 +65,7 @@ c) subskrypcja
 
 *7. Jaki jest najniższy poziom szczegółowości dostępu do zasobów?*
 
-a) zasób
+**a) zasób**
 
 b) grupa zasobów
 
@@ -77,7 +77,7 @@ c) subskrypcja
 
 a) zasób
 
-b) grupa zasobów
+**b) grupa zasobów**
 
 c) subskrypcja
 
@@ -89,13 +89,13 @@ a) roczny
 
 b) miesięczny
 
-c) minutowy
+**c) minutowy**
 
 <br />
 
 *10. Częścią jakiego modelu są szablony ARM?*
 
-a) IaC
+**a) IaC**
 
 b) IaaS
 
@@ -110,7 +110,7 @@ a) IaaS
 
 b) PaaS
 
-c) obie powyższe odpowiedzi są poprawne
+**c) obie powyższe odpowiedzi są poprawne**
 
 <br />
 
@@ -118,7 +118,7 @@ c) obie powyższe odpowiedzi są poprawne
 
 a) maska podsieci
 
-b) CIDR
+**b) CIDR**
 
 c) RIP
 
@@ -128,7 +128,7 @@ c) RIP
 
 a) maszyny wirtualne
 
-b) PaaS
+**b) PaaS**
 
 c) SaaS
 
@@ -136,7 +136,7 @@ c) SaaS
 
 *4. Domyślnym serwerem DNS w chmurze Azure jest:*
 
-a) serwer Azure DNS
+**a) serwer Azure DNS**
 
 b) publiczny serwer DNS
 
@@ -150,7 +150,7 @@ a) podczas tworzenia sieci wirtualnej
 
 b) po utworzeniu sieci wirtualnej
 
-c) w dowolnym momencie
+**c) w dowolnym momencie**
 
 <br />
 
@@ -160,7 +160,7 @@ a) dynamiczny
 
 b) statyczny
 
-c) dynamiczny lub statyczny
+**c) dynamiczny lub statyczny**
 
 <br />
 
@@ -170,13 +170,13 @@ a) dynamiczny
 
 b) statyczny
 
-c) dynamiczny lub statyczny
+**c) dynamiczny lub statyczny**
 
 <br />
 
 *8. Sieciowa grupa zabezpieczeń to:*
 
-a) zbiór reguł bezpieczeństwa kontrolujących przepływ ruchu
+**a) zbiór reguł bezpieczeństwa kontrolujących przepływ ruchu**
 
 b) reguły rezerwacji adresów IP
 
@@ -190,13 +190,13 @@ a) reguły zabezpieczeń dla ruchu przychodzącego
 
 b) reguły zabezpieczeń dla ruchu wychodzącego
 
-c) obie powyższe odpowiedzi są poprawne
+**c) obie powyższe odpowiedzi są poprawne**
 
 <br />
 
 *10. Do jakiego zasobu można przypisać sieciową grupę zabezpieczeń?*
 
-a) sieci wirtualnej
+**a) sieci wirtualnej**
 
 b) interfejsu sieciowego
 
@@ -211,7 +211,7 @@ w chmurze Azure?*
 
 a) Windows Server 2003
 
-b) Windows Server 2008 R2 SP1
+**b) Windows Server 2008 R2 SP1**
 
 c) Windows Server 2012 R2
 
@@ -219,7 +219,7 @@ c) Windows Server 2012 R2
 
 *2. Jakie cechy ma maszyna wirtualna w podstawowej warstwie rozmiarów?*
 
-a) niski wskaźnik IOPS
+**a) niski wskaźnik IOPS**
 
 b) równoważenie obciążenia
 
@@ -231,7 +231,7 @@ c) automatyczne skalowanie
 
 a) usługi o wysokiej dostępności
 
-b) wsadowe przetwarzanie danych
+**b) wsadowe przetwarzanie danych**
 
 c) równoważenie obciążenia
 
@@ -243,7 +243,7 @@ a) skalowania maszyny w górę
 
 b) skalowania maszyny w dół
 
-c) oba powyższe
+**c) oba powyższe**
 
 <br />
 
@@ -253,13 +253,13 @@ a) wykonywania operacji utrzymaniowych
 
 b) skalowania maszyny wirtualnej w górę i w dół
 
-c) oba powyższe
+**c) oba powyższe**
 
 <br />
 
 *6. Moduł równoważenia obciążenia służy do:*
 
-a) rozdzielania obciążenia pomiędzy maszyny wirtualne umieszczone w puli zaplecza
+**a) rozdzielania obciążenia pomiędzy maszyny wirtualne umieszczone w puli zaplecza**
 
 b) izolowania ruchu sieciowego i zabezpieczania maszyny wirtualnej przez atakami
 
@@ -271,7 +271,7 @@ c) oba powyższe
 
 a) tworzenie maszyn w różnych centrach danych Azure
 
-b) tworzenie maszyn w różnych szafach
+**b) tworzenie maszyn w różnych szafach**
 
 c) tworzenie maszyn w tej samej szafie
 
@@ -283,7 +283,7 @@ a) skalowania w górę
 
 b) skalowania w dół
 
-c) powiększania
+**c) powiększania**
 
 <br />
 
@@ -291,7 +291,7 @@ c) powiększania
 
 a) skalowania w pionie
 
-b) skalowania w poziomie
+**b) skalowania w poziomie**
 
 c) skalowania ukośnego
 
@@ -303,7 +303,7 @@ a) strefę dostępności
 
 b) zestaw dostępności
 
-c) zestaw skalowania
+**c) zestaw skalowania**
 
 
 ## Rozdział 4
@@ -312,7 +312,7 @@ c) zestaw skalowania
 
 a) IaaS
 
-b) PaaS
+**b) PaaS**
 
 c) SaaS
 
@@ -322,7 +322,7 @@ c) SaaS
 
 a) większą
 
-b) mniejszą
+**b) mniejszą**
 
 c) taką samą
 
@@ -332,7 +332,7 @@ c) taką samą
 
 a) większy
 
-b) mniejszy
+**b) mniejszy**
 
 c) taki sam
 
@@ -340,7 +340,7 @@ c) taki sam
 
 *4. Plan usługi aplikacji stosuje się do udostępniania:*
 
-a) aplikacji internetowych
+**a) aplikacji internetowych**
 
 b) baz danych
 
@@ -350,7 +350,7 @@ c) obu usług
 
 *5. Miejsca wdrożenia aplikacji służą do:*
 
-a) udostępniania różnych wersji aplikacji
+**a) udostępniania różnych wersji aplikacji**
 
 b) udostępniania aplikacji w różnych regionach
 
@@ -362,7 +362,7 @@ c) obsługiwania zwiększonego obciążenia
 
 a) skalowanie aplikacji w pionie
 
-b) skalowanie aplikacji w poziomie
+**b) skalowanie aplikacji w poziomie**
 
 c) uruchamianie zadań WebJob
 
@@ -374,7 +374,7 @@ a) Splunk
 
 b) analiza dzienników
 
-c) usługa Application Insights
+**c) usługa Application Insights**
 
 <br />
 
@@ -384,7 +384,7 @@ a) skalowanie aplikacji w pionie
 
 b) skalowanie aplikacji w poziomie
 
-c) utworzenie menedżera ruchu
+**c) utworzenie menedżera ruchu**
 
 <br />
 
@@ -394,7 +394,7 @@ a) punkty końcowe Azure
 
 b) zewnętrzne punkty końcowe
 
-c) oba rodzaje
+**c) oba rodzaje**
 
 <br />
 
@@ -402,7 +402,7 @@ c) oba rodzaje
 
 a) plan usługi aplikacji
 
-b) środowisko ASE
+**b) środowisko ASE**
 
 c) maszyna wirtualna
 
@@ -415,13 +415,13 @@ a) IaaS
 
 b) PaaS
 
-c) w obu
+**c) w obu**
 
 <br />
 
 *2. Maszyna wirtualna z serwerem SQL Server różni się od maszyny bez serwera:*
 
-a) konfiguracją
+**a) konfiguracją**
 
 b) wielkością pamięci i liczbą rdzeni procesora
 
@@ -431,7 +431,7 @@ c) nazwą
 
 *3. Baza Azure SQL Database jest również określania mianem modelu:*
 
-a) Database as a Service
+**a) Database as a Service**
 
 b) SQL as a Service
 
@@ -445,7 +445,7 @@ a) liczba jednostek DTU
 
 b) liczba wirtualnych rdzeni procesora
 
-c) oba powyższe
+**c) oba powyższe**
 
 <br />
 
@@ -455,13 +455,13 @@ a) programu SQL Server Management Studio
 
 b) edytora zapytań w portalu Azure
 
-c) obu narzędzi
+**c) obu narzędzi**
 
 <br />
 
 *6. Aby połączyć się z bazą Azure SQL Database, należy:*
 
-a) utworzyć regułę zapory zawierającą adres IP
+**a) utworzyć regułę zapory zawierającą adres IP**
 
 b) wskazać legalny adres IP w ustawieniach sieci wirtualnej
 
@@ -475,13 +475,13 @@ a) utworzyć kopię bazy
 
 b) wyeksportować bazę
 
-c) skonfigurować replikację geograficzną bazy
+**c) skonfigurować replikację geograficzną bazy**
 
 <br />
 
 *8. Aby uzyskać wysoką dostępność bazy Azure SQL Database, należy:*
 
-a) utworzyć grupę trybu failover
+**a) utworzyć grupę trybu failover**
 
 b) utworzyć klaster trybu failover
 
@@ -493,7 +493,7 @@ c) użyć opcji Zawsze włączone
 
 a) przezroczyste szyfrowanie danych
 
-b) dynamiczne maskowanie danych
+**b) dynamiczne maskowanie danych**
 
 c) klasyfikowanie danych
 
@@ -503,7 +503,7 @@ c) klasyfikowanie danych
 
 a) ocenę luk w zabezpieczeniach
 
-b) zaawansowaną ochronę przed zagrożeniami
+**b) zaawansowaną ochronę przed zagrożeniami**
 
 c) obie funkcjonalności
 
@@ -515,7 +515,7 @@ a) obowiązujące przepisy
 
 b) dokonane inwestycje
 
-c) obie powyższe odpowiedzi są poprawne
+**c) obie powyższe odpowiedzi są poprawne**
 
 <br />
 
@@ -525,13 +525,13 @@ a) połączenia typu lokacja – lokacja
 
 b) usługi ExpressRoute
 
-c) obie powyższe odpowiedzi są poprawne
+**c) obie powyższe odpowiedzi są poprawne**
 
 <br />
 
 *3. Do utworzenia połączenia typu lokacja – lokacja potrzebna jest:*
 
-a) brama sieci wirtualnej
+**a) brama sieci wirtualnej**
 
 b) lokalna brama danych
 
@@ -543,7 +543,7 @@ c) obie powyższe odpowiedzi są poprawne
 
 a) sieci wirtualnej
 
-b) sieci lokalnej
+**b) sieci lokalnej**
 
 c) obie powyższe odpowiedzi są poprawne
 
@@ -553,7 +553,7 @@ c) obie powyższe odpowiedzi są poprawne
 
 a) tak
 
-b) tak, ale tylko dla niektórych urządzeń
+**b) tak, ale tylko dla niektórych urządzeń**
 
 c) nie
 
@@ -561,7 +561,7 @@ c) nie
 
 *6. Jaki jest zalecany model wdrożenia połączenia równorzędnego?*
 
-a) Resource Manager
+**a) Resource Manager**
 
 b) klasyczny
 
@@ -573,7 +573,7 @@ c) obie powyższe odpowiedzi są poprawne
 
 a) kontroler domeny w grupie odzyskiwania
 
-b) kontroler domeny w chmurze Azure
+**b) kontroler domeny w chmurze Azure**
 
 c) grupę zawsze dostępnych maszyn
 
@@ -583,7 +583,7 @@ c) grupę zawsze dostępnych maszyn
 
 a) ze wszystkimi usługami Azure
 
-b) z wybranymi usługami Azure
+**b) z wybranymi usługami Azure**
 
 c) z jedną usługą Azure
 
@@ -591,7 +591,7 @@ c) z jedną usługą Azure
 
 *9. Azure Stack to:*
 
-a) rozszerzenie chmury Azure na lokalne centrum danych
+**a) rozszerzenie chmury Azure na lokalne centrum danych**
 
 b) rozszerzenie lokalnego centrum danych na chmurę Azure
 
@@ -605,13 +605,13 @@ a) IaaS
 
 b) PaaS
 
-c) obie powyższe odpowiedzi są poprawne
+**c) obie powyższe odpowiedzi są poprawne**
 
 ## Rozdział 8
 
 *1. Usługa Azure Active Directory znajduje się na szczycie hierarchii:*
 
-a) podmiotu
+**a) podmiotu**
 
 b) subskrypcji
 
@@ -621,7 +621,7 @@ c) grupy zasobów
 
 *2. Czy konto użytkownika może należeć do kilku podmiotów?*
 
-a) tak
+**a) tak**
 
 b) nie
 
@@ -629,7 +629,7 @@ b) nie
 
 *3. Czy usługę AAD można wykorzystywać wraz z kontami Microsoft Live?*
 
-c) tak
+**c) tak**
 
 d) nie
 
@@ -637,7 +637,7 @@ d) nie
 
 *4. Czy usługę AAD można synchronizować z usługą Windows Server AD?*
 
-a) tak
+**a) tak**
 
 b) nie
 
@@ -647,7 +647,7 @@ b) nie
 
 a) 5000 obiektów
 
-b) 500 000 obiektów
+**b) 500 000 obiektów**
 
 c) 5 000 000 obiektów
 
@@ -657,7 +657,7 @@ c) 5 000 000 obiektów
 
 a) podać dowolną nazwę domeny
 
-b) podać nazwę posiadanej domeny
+**b) podać nazwę posiadanej domeny**
 
 c) użyć sufiksu onmicrosoft.com
 
@@ -669,7 +669,7 @@ a) rekord MX
 
 b) rekord TXT
 
-c) jeden z powyższych
+***c) jeden z powyższych***
 
 d) oba powyższe
 
@@ -683,7 +683,7 @@ b) grupom zasobów
 
 c) zasobom
 
-d) wszystkim powyższym
+**d) wszystkim powyższym**
 
 <br />
 
@@ -693,13 +693,13 @@ a) użytkownikom
 
 b) grupom użytkowników
 
-c) użytkownikom i grupom użytkowników
+**c) użytkownikom i grupom użytkowników**
 
 <br />
 
 *10. Aby aplikacja mogła uwierzytelniać użytkowników za pomocą usługi AAD, należy:*
 
-a) zarejestrować aplikację w usłudze AAD
+**a) zarejestrować aplikację w usłudze AAD**
 
 b) utworzyć grupę AAD w aplikacji
 

@@ -912,7 +912,7 @@ c) grupę zawsze dostępnych maszyn
 
 <br />
 
-*8. Lokalna brama danych może być używana:*
+### 8. Lokalna brama danych może być używana:
 
 a) ze wszystkimi usługami Azure
 
@@ -922,13 +922,19 @@ c) z jedną usługą Azure
 
 <br />
 
-*9. Azure Stack to:*
+### 9. Azure Stack to:
 
 **a) rozszerzenie chmury Azure na lokalne centrum danych**
 
 b) rozszerzenie lokalnego centrum danych na chmurę Azure
 
 c) rozszerzenie chmury Azure na inną chmurę publiczną
+
+<br />
+
+**Wyjaśnienie:**
+
+*Azure Stack jest jedynym na rynku rozwiązaniem realizującym odwrotny scenariusz, czyli uruchamianie usług chmurowych w lokalnym środowisku. Dzięki temu IaaS i PaaS można stosować we własnej infrastrukturze. **Azure Stack w rzeczywistości rozszerza chmurę Azure na lokalne środowisko**.*
 
 <br />
 
@@ -939,6 +945,14 @@ a) IaaS
 b) PaaS
 
 **c) obie powyższe odpowiedzi są poprawne**
+
+<br />
+
+**Wyjaśnienie:**
+
+*Azure Stack jest jedynym na rynku rozwiązaniem realizującym odwrotny scenariusz, czyli uruchamianie usług chmurowych w lokalnym środowisku. **Dzięki temu IaaS i PaaS** można stosować we własnej infrastrukturze. Azure Stack w rzeczywistości rozszerza chmurę Azure na lokalne środowisko.*
+
+<br /><br />
 
 ## Rozdział 8
 

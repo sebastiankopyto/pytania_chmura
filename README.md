@@ -666,7 +666,7 @@ c) maszyna wirtualna
 
 ## Rozdział 5
 
-*1. Bazy danych w chmurze Azure można tworzyć w modelu:*
+### 1. Bazy danych w chmurze Azure można tworzyć w modelu:
 
 a) IaaS
 
@@ -674,9 +674,13 @@ b) PaaS
 
 **c) w obu**
 
+**Wyjaśnienie:**
+
+*Serwer SQL Server można wdrożyć w chmurze Azure, wykorzystując IaaS lub PaaS. Baza danych w tym drugim modelu jest często określania mianem modelu DaaS.*
+
 <br />
 
-*2. Maszyna wirtualna z serwerem SQL Server różni się od maszyny bez serwera:*
+### 2. Maszyna wirtualna z serwerem SQL Server różni się od maszyny bez serwera:
 
 **a) konfiguracją**
 
@@ -686,7 +690,7 @@ c) nazwą
 
 <br />
 
-*3. Baza Azure SQL Database jest również określania mianem modelu:*
+### 3. Baza Azure SQL Database jest również określania mianem modelu:
 
 **a) Database as a Service**
 
@@ -696,7 +700,7 @@ c) Data as a Service
 
 <br />
 
-*4. Warstwę cenową bazy Azure SQL Database określa:*
+### 4. Warstwę cenową bazy Azure SQL Database określa:
 
 a) liczba jednostek DTU
 
@@ -706,7 +710,13 @@ b) liczba wirtualnych rdzeni procesora
 
 <br />
 
-*5. Zapytania do bazy Azure SQL Database można wysyłać za pomocą:*
+**Wyjaśnienie:**
+
+*Ponieważ model oparty na jednostkach DTU okazał się zbyt skomplikowany dla użytkowników, Microsoft wprowadził inny model, oparty na wirtualnych rdzeniach procesorów*
+
+<br />
+
+### 5. Zapytania do bazy Azure SQL Database można wysyłać za pomocą:*
 
 a) programu SQL Server Management Studio
 
@@ -716,7 +726,13 @@ b) edytora zapytań w portalu Azure
 
 <br />
 
-*6. Aby połączyć się z bazą Azure SQL Database, należy:*
+**Wyjaśnienie:**
+
+*Pierwszą unikatową opcją w widoku bazy danych SQL jest Edytor zapytań (wersja zapoznawcza). Dzięki edytorowi nie jest potrzebny program SQL Server Management Studio, ponieważ za pomocą przeglądarki można wysyłać do bazy dowolne zapytania, jak również wykonywać inne operacje.*
+
+<br />
+
+### 6. Aby połączyć się z bazą Azure SQL Database, należy:*
 
 **a) utworzyć regułę zapory zawierającą adres IP**
 
@@ -726,7 +742,13 @@ c) wskazać legalny adres IP w ustawieniach głównej bazy danych
 
 <br />
 
-*7. Aby utworzyć replikę bazy Azure SQL Database, należy:*
+**Wyjaśnienie:**
+
+*Zarządzanie bazą Azure SQL Database należy zacząć od skonfigurowania zapory. Domyślnie z bazą mogą się łączyć jedynie usługi Azure. Aby baza mogła obsługiwać połączenia pochodzące od określonych adresów IP, należy skonfigurować regułę zapory*
+
+<br />
+
+### 7. Aby utworzyć replikę bazy Azure SQL Database, należy:*
 
 a) utworzyć kopię bazy
 
@@ -736,7 +758,13 @@ b) wyeksportować bazę
 
 <br />
 
-*8. Aby uzyskać wysoką dostępność bazy Azure SQL Database, należy:*
+**Wyjaśnienie:**
+
+*Aby utworzyć wysokodostępną bazę danych, kliknij opcję **Replikacja geograficzna**. Pojawi się widok z mapą świata, na której będą zaznaczone centra danych, z których wszystkie można wykorzystać do replikowania bazy. Centra, w których znajdują się utworzone bazy, są wyróżnione kolorem niebieskim, a centra zalecane do replikacji — fioletowym. Widoczna jest też informacja o bazie podstawowej. Oto widok opcji Replikacja geograficzna (zobacz pierwszy rysunek na następnej stronie)*
+
+<br />
+
+### 8. Aby uzyskać wysoką dostępność bazy Azure SQL Database, należy:
 
 **a) utworzyć grupę trybu failover**
 
@@ -746,7 +774,13 @@ c) użyć opcji Zawsze włączone
 
 <br />
 
-*9. Do maskowania kolumn danych w bazie Azure SQL Database wykorzystuje się:*
+**Wyjaśnienie:**
+
+*W razie awarii lub niedostępności bazy podstawowej trzeba ręcznie przestawić bazę zapasową w tryb odczytu i zapisu, jak również zastosować inny ciąg umożliwiający łączenie się z bazą. Rozwiązanie to nie zapewnia więc wysokiej dostępności. W tym celu trzeba wykonać dodatkową operację — **utworzyć grupę trybu failover**.*
+
+<br />
+
+### 9. Do maskowania kolumn danych w bazie Azure SQL Database wykorzystuje się:
 
 a) przezroczyste szyfrowanie danych
 
@@ -756,13 +790,27 @@ c) klasyfikowanie danych
 
 <br />
 
-*10. Do wykrywania potencjalnych zagrożeń bazy danych stosuje się:*
+**Wyjaśnienie:**
+
+*Opcja Dynamiczne maskowanie danych zawiera listę kolumn, których maskowanie jest zalecane. Można tu również zdefiniować własne reguły maskowania. Zwróć uwagę, że zabezpieczenie to nie dotyczy administratora. Można wskazać innych użytkowników, którzy będą wykluczeni z maskowania.*
+
+<br />
+
+### 10. Do wykrywania potencjalnych zagrożeń bazy danych stosuje się:
 
 a) ocenę luk w zabezpieczeniach
 
 **b) zaawansowaną ochronę przed zagrożeniami**
 
 c) obie funkcjonalności
+
+<br />
+
+**Wyjaśnienie:**
+
+*W funkcjonalnościach dostępnych w panelu Zaawansowana ochrona przed zagrożeniami wykorzystane są techniki uczenia maszynowego, które analizują działanie bazy i alarmują o odstępstwach od normy. Jeżeli na przykład logowanie do bazy zazwyczaj odbywa się w godzinach pracy i ktoś zaloguje się o innej porze, zostanie zgłoszony alarm.*
+
+<br /><br />
 
 ## Rozdział 7
 

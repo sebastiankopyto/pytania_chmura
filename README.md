@@ -52,7 +52,7 @@ c) SaaS
 
 <br />
 
-*3. W jakim modelu usług zarządzanie infrastrukturą jest najprostsze?*
+### 3. W jakim modelu usług zarządzanie infrastrukturą jest najprostsze?
 
 a) IaaS
 
@@ -74,7 +74,7 @@ b) PaaS
 
 <br />
 
-*4. Jaki model usług oferuje najnowsze funkcjonalności i aktualizacje?*
+### 4. Jaki model usług oferuje najnowsze funkcjonalności i aktualizacje?
 
 a) IaaS
 

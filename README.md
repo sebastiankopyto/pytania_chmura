@@ -219,7 +219,7 @@ c) RIP
 
 **Wyjaśnienie:** 
 
-*Kolejnym parametrem jest przestrzeń adresowa definiująca liczbę dostępnych adresów IP. Wykorzystywany jest tu format CIDR (ang. Classless Interdomain Routing — bezklasowe trasowanie międzydomenowe).*
+*Kolejnym parametrem jest przestrzeń adresowa definiująca liczbę dostępnych adresów IP. Wykorzystywany jest tu format CIDR (ang. Classless Interdomain Routing — bezklasowe trasowanie międzydomenowe).*
 
 <br />
 
@@ -265,13 +265,19 @@ b) po utworzeniu sieci wirtualnej
 
 <br />
 
-*6. Prywatny adres IP w sieci Azure jest:*
+### 6. Prywatny adres IP w sieci Azure jest:
 
 a) dynamiczny
 
 b) statyczny
 
 **c) dynamiczny lub statyczny**
+
+<br />
+
+**Wyjaśnienie:**
+
+*Ustawienia publicznego adresu IP są podobne do adresu prywatnego. **Domyślnie jest to adres dynamiczny**, który zmienia się po każdym uruchomieniu maszyny. **Można go zmienić na statyczny**, ale należy pamiętać o różnicy między adresem publicznym a prywatnym. Rezerwacja prywatnego adresu IP jest bezpłatna, ponieważ jest to adres wewnętrzny. Można więc bez obaw zarezerwować cały zakres adresów. Natomiast adres publiczny jest przydzielany z góry i nie można go zmienić na dowolny inny. Koszty rezerwacji pięciu pierwszych adresów publicznych są zawarte w cenie subskrypcji. Za każdy kolejny adres pobierana jest opłata. Nie jest ona wygórowana, bo wynosi ok. 3 euro miesięcznie, ale warto wiedzieć, za co się płaci.*
 
 <br />
 
@@ -282,6 +288,12 @@ a) dynamiczny
 b) statyczny
 
 **c) dynamiczny lub statyczny**
+
+<br />
+
+**Wyjaśnienie:**
+
+*Ustawienia publicznego adresu IP są podobne do adresu prywatnego. **Domyślnie jest to adres dynamiczny**, który zmienia się po każdym uruchomieniu maszyny. **Można go zmienić na statyczny**, ale należy pamiętać o różnicy między adresem publicznym a prywatnym. Rezerwacja prywatnego adresu IP jest bezpłatna, ponieważ jest to adres wewnętrzny. Można więc bez obaw zarezerwować cały zakres adresów. Natomiast adres publiczny jest przydzielany z góry i nie można go zmienić na dowolny inny. Koszty rezerwacji pięciu pierwszych adresów publicznych są zawarte w cenie subskrypcji. Za każdy kolejny adres pobierana jest opłata. Nie jest ona wygórowana, bo wynosi ok. 3 euro miesięcznie, ale warto wiedzieć, za co się płaci.*
 
 <br />
 

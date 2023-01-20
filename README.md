@@ -125,7 +125,13 @@ c) subskrypcja
 
 <br />
 
-*7. Jaki jest najniższy poziom szczegółowości dostępu do zasobów?*
+**Wyjaśnienie:**
+
+*Najwyższą jednostką administracyjną w chmurze Azure jest **podmiot**.*
+
+<br />
+
+### 7. Jaki jest najniższy poziom szczegółowości dostępu do zasobów?
 
 **a) zasób**
 
@@ -133,9 +139,13 @@ b) grupa zasobów
 
 c) subskrypcja
 
+**Wyjaśnienie:**
+
+*Wszystkie sposoby dostępne w chmurze Azure tworzą hierarchiczną strukturę. Zasoby należą do grup, grupy do subskrypcji, a subskrypcje do podmiotu.*
+
 <br />
 
-*8. Jaki jest zalecany poziom szczegółowości dostępu do zasobów Azure?*
+### 8. Jaki jest zalecany poziom szczegółowości dostępu do zasobów Azure?
 
 a) zasób
 
@@ -145,7 +155,17 @@ c) subskrypcja
 
 <br />
 
-*9. Jaki jest system naliczania opłat w chmurze Azure?*
+**Wyjaśnienie:**
+
+*Z perspektywy Microsoft Azure, gdy użytkownik zaloguje się do swojego konta, usługa Azure Fabric określa, do których podmiotów ma on dostęp, i łączy go z domyślnym podmiotem. Użytkownik uzyskuje wtedy dostęp do subskrypcji i zasobów przypisanych temu podmiotowi i może nimi zarządzać. Przełączając się pomiędzy podmiotami, użytkownik uzyskuje dostęp do innych subskrypcji i grup zasobów. Cały proces jest kontrolowany przez Azure Fabric, aby środowiska różnych klientów były od siebie odizolowane.*
+
+*Od chwili wprowadzenia modelu ARM zarządzanie jest o wiele łatwiejsze. W poprzednim modelu, ASM, wszystko wyglądało zupełnie inaczej. Użytkownik po zalogowaniu uzyskiwał dostęp do wszystkich subskrypcji skojarzonych z jego kontem. System Azure Active Directory nie był przypisany do określonego podmiotu, więc mogło ich być kilka. Zarządzanie zasobami było trudniejsze, ponieważ nie było grup zasobów. Separacja zasobów była możliwa tylko na poziomie subskrypcji.*
+
+*W podobny hierarchiczny sposób można administrować zasobami. Użytkownik może posiadać różnego rodzaju uprawnienia dostępu do zasobów, na przykład jako właściciel, udziałowiec, odbiorca itp. Za pomocą ról i polityk można definiować niestandardowe uprawnienia. Role użytkowników mogą dotyczyć podmiotu, grupy zasobów lub pojedynczego zasobu. Zarządzanie uprawnieniami użytkowników na poziomie zasobów jest trudne i czasochłonne, dlatego nie jest zalecane.*
+
+<br />
+
+### 9. Jaki jest system naliczania opłat w chmurze Azure?
 
 a) roczny
 
@@ -155,7 +175,13 @@ b) miesięczny
 
 <br />
 
-*10. Częścią jakiego modelu są szablony ARM?*
+**Wyjaśnienie:** 
+
+*W chmurze Microsoft Azure stosowany jest minutowy system rozliczania. Jeżeli na przykład klient utworzy maszynę wirtualną i usunie ją po 12 dniach, 11 godzinach i 13 minutach, to opłata zostanie naliczona dokładnie za ten okres. W systemie rozliczeń godzinowych opłata zostałaby naliczona za 12 dni i 12 godzin, a w przypadku rozliczeń dziennych — za 13 dni.*
+
+<br />
+
+### 10. Częścią jakiego modelu są szablony ARM? 
 
 **a) IaC**
 
@@ -163,6 +189,13 @@ b) IaaS
 
 c) konfiguracja jako kod
 
+<br /> 
+
+**Wyjaśnienie:** 
+
+*Dzięki modelowi ARM i szablonom Microsoft poszedł mocno do przodu i znacząco zmienił branżę chmurową. W chmurze i metodyce DevOps bardzo ważne jest pojęcie **IaC (ang. Infrastructure as Code — infrastruktura jako kod)**, a szablony idealnie się w nie wpisują. Za pomocą raz przygotowanego szablonu można powielać środowiska. Automatyzuje się w ten sposób proces wdrażania i konfigurowania infrastruktury, unikając przy tym błędów.*
+
+<br /><br />
 
 ## Rozdział 2
 

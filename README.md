@@ -454,6 +454,12 @@ c) oba powyższe
 
 <br />
 
+**Wyjaśnienie:** 
+
+*Moduł równoważenia obciążenia rozdziela ruch pomiędzy kilka maszyn umieszczonych w puli. Robi to bardzo szybko, minimalnie spowalniając ruch.*
+
+<br />
+
 *7. Efektem umieszczenia maszyn wirtualnych w tym samym zestawie dostępności jest:*
 
 a) tworzenie maszyn w różnych centrach danych Azure
@@ -464,7 +470,7 @@ c) tworzenie maszyn w tej samej szafie
 
 <br />
 
-*8. Rozbudowa infrastruktury poprzez tworzenie dodatkowych maszyn wirtualnych nosi nazwę:*
+### 8. Rozbudowa infrastruktury poprzez tworzenie dodatkowych maszyn wirtualnych nosi nazwę:
 
 a) skalowania w górę
 
@@ -484,6 +490,12 @@ c) skalowania ukośnego
 
 <br />
 
+**Wyjaśnienie:**
+
+*"Problem ten nie istnieje w skalowaniu w poziomie. Definiując zestaw skalowania, nie trzeba zmieniać rozmiarów maszyn wirtualnych. Zamiast tego tworzy się dodatkowe instancje, a moduł równoważenia obciążenia zajmuje się ich optymalnym wykorzystaniem. Zestaw skalowania jest podobny do zestawu dostępności, ale różni się tym, że kolejne maszyny są uruchamiane na żądanie w zależności od obciążenia istniejących maszyn. Ponadto w zestawie dostępności maszyny są od siebie niezależne i awaria jednej z nich nie wpływa na działanie pozostałych. Natomiast w zestawie skalowania tworzone są kopie jednej maszyny podstawowej. Jeżeli zostanie ona uszkodzona, to problem rozprzestrzeni się na pozostałe maszyny w zestawie. Należy więc wyraźnie pokreślić, że zestaw skalowania nie jest tym samym co zestaw dostępności, a skalowanie w poziomie dotyczy obciążenia, a nie dostępności maszyn."*
+
+<br />
+
 *10. Do skalowania infrastruktury wykorzystuje się:*
 
 a) strefę dostępności
@@ -492,10 +504,18 @@ b) zestaw dostępności
 
 **c) zestaw skalowania**
 
+<br />
+
+**Wyjaśnienie:**
+
+*"Problem ten nie istnieje w skalowaniu w poziomie. Definiując zestaw skalowania, nie trzeba zmieniać rozmiarów maszyn wirtualnych. Zamiast tego tworzy się dodatkowe instancje, a moduł równoważenia obciążenia zajmuje się ich optymalnym wykorzystaniem. Zestaw skalowania jest podobny do zestawu dostępności, ale różni się tym, że kolejne maszyny są uruchamiane na żądanie w zależności od obciążenia istniejących maszyn. Ponadto w zestawie dostępności maszyny są od siebie niezależne i awaria jednej z nich nie wpływa na działanie pozostałych. Natomiast w zestawie skalowania tworzone są kopie jednej maszyny podstawowej. Jeżeli zostanie ona uszkodzona, to problem rozprzestrzeni się na pozostałe maszyny w zestawie. Należy więc wyraźnie pokreślić, że zestaw skalowania nie jest tym samym co zestaw dostępności, a skalowanie w poziomie dotyczy obciążenia, a nie dostępności maszyn."*
+
+<br /><br />
+
 
 ## Rozdział 4
 
-*1. Usługa aplikacji w chmurze Azure to przykład modelu:*
+### 1. Usługa aplikacji w chmurze Azure to przykład modelu:
 
 a) IaaS
 
@@ -505,7 +525,13 @@ c) SaaS
 
 <br />
 
-*2. Jaką kontrolę nad aplikacją ma użytkownik w planie usługi aplikacji w porównaniu z wirtualną maszyną?*
+**Wyjaśnienie:** 
+
+![IaaS SaaS PaaS](./IaaSPaaSSaaS.png "IaaS SaaS PaaS")
+
+<br />
+
+### 2. Jaką kontrolę nad aplikacją ma użytkownik w planie usługi aplikacji w porównaniu z wirtualną maszyną?
 
 a) większą
 
@@ -515,7 +541,13 @@ c) taką samą
 
 <br />
 
-*3. Jaki jest nakład pracy administracyjnej w planie usługi aplikacji w porównaniu z wirtualną maszyną?*
+**Wyjaśnienie:** 
+
+![IaaS SaaS PaaS](./IaaSPaaSSaaS.png "IaaS SaaS PaaS")
+
+<br />
+
+### 3. Jaki jest nakład pracy administracyjnej w planie usługi aplikacji w porównaniu z wirtualną maszyną? 
 
 a) większy
 
@@ -525,7 +557,13 @@ c) taki sam
 
 <br />
 
-*4. Plan usługi aplikacji stosuje się do udostępniania:*
+**Wyjaśnienie:** 
+
+![IaaS SaaS PaaS](./IaaSPaaSSaaS.png "IaaS SaaS PaaS")
+
+<br />
+
+### 4. Plan usługi aplikacji stosuje się do udostępniania:
 
 **a) aplikacji internetowych**
 
@@ -533,9 +571,15 @@ b) baz danych
 
 c) obu usług
 
+<br /> 
+
+**Wyjaśnienie:**
+
+*Aby udostępnić aplikację internetową w chmurze Azure, należy utworzyć plan usługi aplikacji, a następnie dodać do niego aplikację. Jeden plan, podobnie jak usługa IIS zainstalowana na serwerze, może obejmować kilka aplikacji. Plan usługi jest podobny do usługi IIS, ale pomiędzy nimi jest jedna istotna różnica: nad usługą IIS administrator ma pełną kontrolę, a w planie usługi ma do dyspozycji określone opcje konfiguracyjne. W zasadzie jest to różnica między modelami IaaS i PaaS.*
+
 <br />
 
-*5. Miejsca wdrożenia aplikacji służą do:*
+### 5. Miejsca wdrożenia aplikacji służą do:
 
 **a) udostępniania różnych wersji aplikacji**
 
@@ -545,7 +589,13 @@ c) obsługiwania zwiększonego obciążenia
 
 <br />
 
-*6. Wzrosty obciążenia obsługuje się w planie usługi aplikacji poprzez:*
+**Wyjaśnienie:**
+
+*Bardzo ciekawa jest opcja Miejsca wdrożenia, za pomocą której można utworzyć kilka osobnych środowisk dla aplikacji. Dzięki temu można na przykład zmieniać wersje aplikacji.*
+
+<br />
+
+### 6. Wzrosty obciążenia obsługuje się w planie usługi aplikacji poprzez:
 
 a) skalowanie aplikacji w pionie
 
@@ -555,7 +605,7 @@ c) uruchamianie zadań WebJob
 
 <br />
 
-*7. Najlepszym narzędziem do monitorowania aplikacji internetowej w chmurze Azure jest:*
+### 7. Najlepszym narzędziem do monitorowania aplikacji internetowej w chmurze Azure jest:
 
 a) Splunk
 
@@ -565,7 +615,13 @@ b) analiza dzienników
 
 <br />
 
-*8. Wysoką dostępność aplikacji internetowej uzyskuje się poprzez:*
+**Wyjaśnienie:**
+
+*W zakładce Monitorowanie zalecane jest włączenie usługi Application Insights (wgląd w aplikację), za pomocą której można monitorować wykorzystanie i wydajność aplikacji.*
+
+<br />
+
+### 8. Wysoką dostępność aplikacji internetowej uzyskuje się poprzez:
 
 a) skalowanie aplikacji w pionie
 
@@ -575,7 +631,13 @@ b) skalowanie aplikacji w poziomie
 
 <br />
 
-*9. Menedżer ruchu obsługuje:*
+**Wyjaśnienie:**
+
+*Aby osiągnąć wysoką dostępność aplikacji, należy użyć kolejnej usługi: menedżera ruchu. Menedżer działa na poziomie usługi DNS, a jego zadaniem jest kierowanie odbieranych zapytań do odpowiednich punktów końcowych na podstawie zdefiniowanych reguł.*
+
+<br />
+
+### 9. Menedżer ruchu obsługuje:
 
 a) punkty końcowe Azure
 
@@ -585,13 +647,21 @@ b) zewnętrzne punkty końcowe
 
 <br />
 
-*10. Dedykowane, odizolowane środowisko aplikacji internetowej w chmurze Azure to:*
+### 10. Dedykowane, odizolowane środowisko aplikacji internetowej w chmurze Azure to:
 
 a) plan usługi aplikacji
 
 **b) środowisko ASE**
 
 c) maszyna wirtualna
+
+<br />
+
+**Wyjaśnienie:**
+
+*Jeżeli jednak wymagany jest limitowany dostęp, można utworzyć środowisko usługi aplikacji (ang. App Service Environment, ASE). Takie środowisko jest całkowicie odizolowane od innych usług i zapewnia dodatkową ochronę aplikacjom, które są poddawane bardzo dużemu obciążeniu, wymagają zabezpieczonego dostępu sieciowego i wykorzystują dużo pamięci.*
+
+<br /><br />
 
 
 ## Rozdział 5

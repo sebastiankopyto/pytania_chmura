@@ -956,7 +956,7 @@ b) PaaS
 
 ## Rozdział 8
 
-*1. Usługa Azure Active Directory znajduje się na szczycie hierarchii:*
+### 1. Usługa Azure Active Directory znajduje się na szczycie hierarchii:
 
 **a) podmiotu**
 
@@ -966,7 +966,7 @@ c) grupy zasobów
 
 <br />
 
-*2. Czy konto użytkownika może należeć do kilku podmiotów?*
+### 2. Czy konto użytkownika może należeć do kilku podmiotów?
 
 **a) tak**
 
@@ -974,7 +974,7 @@ b) nie
 
 <br />
 
-*3. Czy usługę AAD można wykorzystywać wraz z kontami Microsoft Live?*
+### 3. Czy usługę AAD można wykorzystywać wraz z kontami Microsoft Live?
 
 **c) tak**
 
@@ -982,7 +982,7 @@ d) nie
 
 <br />
 
-*4. Czy usługę AAD można synchronizować z usługą Windows Server AD?*
+### 4. Czy usługę AAD można synchronizować z usługą Windows Server AD?
 
 **a) tak**
 
@@ -990,7 +990,7 @@ b) nie
 
 <br />
 
-*5. W bezpłatnej warstwie usługi AAD można utworzyć:*
+### 5. W bezpłatnej warstwie usługi AAD można utworzyć:
 
 a) 5000 obiektów
 
@@ -1000,7 +1000,13 @@ c) 5 000 000 obiektów
 
 <br />
 
-*6. Aby skonfigurować niestandardową domenę, należy:*
+**Wyjaśnienie:**
+
+*W tym rozdziale skupimy się na funkcjonalnościach oferowanych w bezpłatnej warstwie umożliwiającej tworzenie **maksymalnie 500 000 obiektów** katalogowych, zarządzanie użytkownikami i ich grupami, synchronizowanie katalogu z lokalnym kontrolerem oraz tworzenie podstawowych raportów bezpieczeństwa.*
+
+<br />
+
+### 6. Aby skonfigurować niestandardową domenę, należy:
 
 a) podać dowolną nazwę domeny
 
@@ -1010,7 +1016,7 @@ c) użyć sufiksu onmicrosoft.com
 
 <br />
 
-*7. Do weryfikacji domeny niestandardowej wykorzystuje się:*
+### 7. Do weryfikacji domeny niestandardowej wykorzystuje się:
 
 a) rekord MX
 
@@ -1022,7 +1028,7 @@ d) oba powyższe
 
 <br />
 
-*8. Mechanizm RBAC można wykorzystywać do przypisywania ról:*
+### 8. Mechanizm RBAC można wykorzystywać do przypisywania ról:
 
 a) subskrypcjom
 
@@ -1034,7 +1040,7 @@ c) zasobom
 
 <br />
 
-*9. Role można przypisywać:*
+### 9. Role można przypisywać:
 
 a) użytkownikom
 
@@ -1044,7 +1050,7 @@ b) grupom użytkowników
 
 <br />
 
-*10. Aby aplikacja mogła uwierzytelniać użytkowników za pomocą usługi AAD, należy:*
+### 10. Aby aplikacja mogła uwierzytelniać użytkowników za pomocą usługi AAD, należy:
 
 **a) zarejestrować aplikację w usłudze AAD**
 

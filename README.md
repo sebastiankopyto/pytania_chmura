@@ -66,9 +66,9 @@ b) PaaS
 
 ***IaaS** -  Infrastructure as a Service*
 
-***IaaS** -  Platform as a Service*
+***PaaS** -  Platform as a Service*
 
-***IaaS** -  Software as a Service*
+***SaaS** -  Software as a Service*
 
 ![IaaS SaaS PaaS](./IaaSPaaSSaaS.png "IaaS SaaS PaaS")
 
@@ -86,7 +86,7 @@ c) SaaS
 
 **Wyjaśnienie:**
 
-***SaaS** wymaga minimalnego zaangażowania, ale możliwości jej dostosowywania też są minimalne. Aby w niej coś zmienić, trzeba się kontaktować z dostawcą usługi, bo tylko on może wprowadzać modyfikacje.*
+***SaaS** wymaga minimalnego zaangażowania, ale możliwości jej dostosowywania też są minimalne. Aby w niej coś zmienić, trzeba się kontaktować z dostawcą usługi, bo tylko on może wprowadzać modyfikacje.*
 
 ***PaaS** daje większą swobodę pod względem administrowania, utrzymywania i dostosowywania infrastruktury. Zazwyczaj jednak zmiany ograniczają się do określonych ustalonych opcji konfiguracyjnych, ale to i tak więcej niż w przypadku modelu SaaS.*
 

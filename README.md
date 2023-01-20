@@ -40,6 +40,18 @@ c) SaaS
 
 <br />
 
+**Wyjaśnienie:** 
+
+***IaaS** -  Infrastructure as a Service*
+
+***IaaS** -  Platform as a Service*
+
+***IaaS** -  Software as a Service*
+
+![IaaS SaaS PaaS](./IaaSPaaSSaaS.png "IaaS SaaS PaaS")
+
+<br />
+
 *3. W jakim modelu usług zarządzanie infrastrukturą jest najprostsze?*
 
 a) IaaS
@@ -47,6 +59,18 @@ a) IaaS
 b) PaaS
 
 **c) SaaS**
+
+<br />
+
+**Wyjaśnienie:** 
+
+***IaaS** -  Infrastructure as a Service*
+
+***IaaS** -  Platform as a Service*
+
+***IaaS** -  Software as a Service*
+
+![IaaS SaaS PaaS](./IaaSPaaSSaaS.png "IaaS SaaS PaaS")
 
 <br />
 

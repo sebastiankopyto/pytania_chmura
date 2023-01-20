@@ -11,6 +11,22 @@ b) hostowana
 
 **c) publiczna**
 
+**Wyjaśnienie:** 
+
+***Chmura prywatna** — wszystkie zasoby są utrzymywane wewnętrznie we
+własnym centrum danych.*
+
+***Chmura hostowana** — coś pomiędzy chmurą prywatną a publiczną. Dostawca
+usług tworzy w swoim centrum danych wydzielone, odizolowane środowisko
+i oferuje je klientowi na jego wyłączny użytek.*
+
+***Chmura publiczna** — dostawca usług oferuje usługę publiczną, czyli dostępną
+dla każdego. Klienci są jednak w niej od siebie odizolowani.*
+
+***Chmura hybrydowa** — połączenie chmury prywatnej i publicznej. Niektóre
+usługi są dostępne w chmurze prywatnej, a inne w lokalnym centrum danych.
+Co najmniej dwa tego rodzaju środowiska są ze sobą bezpośrednio połączone.*
+
 <br/>
 
 *2. Jaki model usług daje największą kontrolę nad zasobami?*

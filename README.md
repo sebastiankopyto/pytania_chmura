@@ -343,8 +343,7 @@ c) podsieci
 ## Rozdział 3
 
 
-*1. Jaka jest najstarsza dostępna wersja systemu operacyjnego Windows Server
-w chmurze Azure?*
+### 1. Jaka jest najstarsza dostępna wersja systemu operacyjnego Windows Server w chmurze Azure?
 
 a) Windows Server 2003
 
@@ -354,7 +353,32 @@ c) Windows Server 2012 R2
 
 <br />
 
-*2. Jakie cechy ma maszyna wirtualna w podstawowej warstwie rozmiarów?*
+**Wyjaśnienie:** 
+
+*Dostępne są następujące wersje systemu Windows:*
+
+*Windows Server 2019 Datacenter*
+
+*Windows Server 2016 Datacenter,*
+
+*Windows Server 2012 R2 Datacenter,*
+
+*Windows Server 2012 Datacenter,*
+
+*Windows Server 2008 R2,*
+
+*Windows 10 Enterprise,*
+
+*Windows 10 Pro,*
+
+*Windows 8.1 Enterprise,*
+
+*Windows 7.*
+
+
+<br />
+
+### 2. Jakie cechy ma maszyna wirtualna w podstawowej warstwie rozmiarów?
 
 **a) niski wskaźnik IOPS**
 
@@ -364,7 +388,13 @@ c) automatyczne skalowanie
 
 <br />
 
-*3. Jakie zastosowania ma maszyna wirtualna o niskim priorytecie?*
+**Wyjaśnienie:**
+
+*Grupa podstawowa jest przeznaczona dla środowisk programistycznych i testowych. Maszyny podstawowe pod względem wydajności są podobne do standardowych, ale mają pewne ograniczenia, m.in. **niższe wskaźniki IOPS (ang. Input/Output Operations Per Second — liczba operacji wejścia/wyjścia na sekundę)** oraz brak możliwości równoważenia obciążenia i automatycznego skalowania.*
+
+<br />
+
+### 3. Jakie zastosowania ma maszyna wirtualna o niskim priorytecie?
 
 a) usługi o wysokiej dostępności
 
@@ -374,7 +404,13 @@ c) równoważenie obciążenia
 
 <br />
 
-*4. Opcja Rozmiar w widoku maszyny wirtualnej jest wykorzystywana do:*
+**Wyjaśnienie:**
+
+*Maszyny o niskim priorytecie są uruchamiane wtedy, gdy centrum danych Azure ma wolne zasoby. Ich cena jest niska, ale nie zawsze są dostępne, ponieważ zarezerwowane dla nich zasoby mogą być przydzielane maszynom o wyższych priorytetach. **Maszyny te są przeznaczone do wykonywania operacji wsadowych i doraźnych zadań.***
+
+<br />
+
+### 4. Opcja Rozmiar w widoku maszyny wirtualnej jest wykorzystywana do:
 
 a) skalowania maszyny w górę
 
@@ -384,7 +420,13 @@ b) skalowania maszyny w dół
 
 <br />
 
-*5. Element Runbook służy do:*
+**Wyjaśnienie:**
+
+*Rozmiar maszyny określa liczba procesorów, wielkość pamięci i pojemność dysku.*
+
+<br />
+
+### 5. Element Runbook służy do:
 
 a) wykonywania operacji utrzymaniowych
 
@@ -394,7 +436,15 @@ b) skalowania maszyny wirtualnej w górę i w dół
 
 <br />
 
-*6. Moduł równoważenia obciążenia służy do:*
+**Wyjaśnienie:**
+
+*Element Runbook wymaga posiadania konta Azure Automation i służy do wykonywania operacji według wcześniej zdefiniowanego planu lub do uruchamiania niestandardowych skryptów. Zdaniem większości administratorów elementy te są bardziej użyteczne niż aplikacje logiki, ponieważ umożliwiają wykonywanie dowolnych operacji za pomocą skryptów PowerShell. Według mnie oba narzędzia są bardzo przydatne, a elementy Runbook są preferowane dlatego, że interpreter PowerShell wykorzystuje się również do administrowania lokalną infrastrukturą.*
+
+*W elemencie Runbook można wybrać źródło wbudowane lub źródło użytkownika. W drugim przypadku należy wybrać konto automatyzacji i niestandardowy element, którym może być dowolny skrypt obsługiwany przez maszynę wirtualną. We wbudowanym źródle dostępne są następujące opcje: **Restart VM, Stop VM, Scale Up VM, Scale Down VM i Remove VM (odpowiednio: uruchom ponownie, zatrzymaj, powiększ, pomniejsz i usuń maszynę).***
+
+<br />
+
+### 6. Moduł równoważenia obciążenia służy do:
 
 **a) rozdzielania obciążenia pomiędzy maszyny wirtualne umieszczone w puli zaplecza**
 

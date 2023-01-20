@@ -84,7 +84,20 @@ c) SaaS
 
 <br />
 
-*5. Co decyduje o izolowaniu środowisk klientów w chmurze Azure?*
+**Wyjaśnienie:**
+
+***SaaS** wymaga minimalnego zaangażowania, ale możliwości jej dostosowywania też są minimalne. Aby w niej coś zmienić, trzeba się kontaktować z dostawcą usługi, bo tylko on może wprowadzać modyfikacje.*
+
+***PaaS** daje większą swobodę pod względem administrowania, utrzymywania i dostosowywania infrastruktury. Zazwyczaj jednak zmiany ograniczają się do określonych ustalonych opcji konfiguracyjnych, ale to i tak więcej niż w przypadku modelu SaaS.*
+
+***IaaS** wymaga największego zaangażowania klienta w administrowanie infrastrukturą i jej utrzymanie, ale też oferuje największe możliwości konfiguracyjne. Klient ma kontrolę nad wszystkim, co znajduje się na poziomie systemu operacyjnego i wyżej (może wybierać różne przygotowane wcześniej obrazy systemów, a nawet tworzyć własne). Może wybierać funkcjonalności,
+które zamierza konfigurować, zarządzać rolami użytkowników na serwerach i instalować na maszynach wirtualnych dowolne oprogramowanie.*
+
+*Przy wyborze modelu kluczową kwestią jest uświadomienie sobie, jakie funkcjonalności są najbardziej dopasowane do potrzeb w danej sytuacji. Czasami, gdy produkt oferuje wszystko, co trzeba, najprostszym rozwiązaniem jest wybranie modelu SaaS. **Jeżeli niezbędne są najnowsze ustawienia i funkcjonalności, prawdopodobnie najlepszy będzie PaaS.** Jeżeli natomiast wymagane są nietypowe rozwiązania, wtedy właściwym wyborem będzie IaaS, ponieważ w tym modelu można skonfigurować i zainstalować wszystko, co jest potrzebne do uruchomienia aplikacji.*
+
+<br />
+
+### 5. Co decyduje o izolowaniu środowisk klientów w chmurze Azure?
 
 **a) usługa Azure Fabric**
 

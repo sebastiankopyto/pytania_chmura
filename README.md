@@ -107,7 +107,15 @@ c) subskrypcja
 
 <br />
 
-*6. Jak nazywa się pierwszy poziom dostępu w chmurze Microsoft Azure?*
+**Wyjaśnienie:**
+
+*Microsoft jest publicznym dostawcą usług i przechowywane przezeń dane poszczególnych klientów muszą być od siebie odizolowane. Do tego celu wykorzystywana jest usługa **Azure Fabric**. Mimo że klienci używają tych samych fizycznych zasobów, takich jak sieć, serwery i macierze, usługi są dostępne tylko dla ich właścicieli.*
+
+*Z perspektywy Microsoft Azure, gdy użytkownik zaloguje się do swojego konta, usługa **Azure Fabric** określa, do których podmiotów ma on dostęp, i łączy go z domyślnym podmiotem. Użytkownik uzyskuje wtedy dostęp do subskrypcji i zasobów przypisanych temu podmiotowi i może nimi zarządzać. Przełączając się pomiędzy podmiotami, użytkownik uzyskuje dostęp do innych subskrypcji i grup zasobów. Cały proces jest kontrolowany przez **Azure Fabric**, aby środowiska różnych klientów były od siebie odizolowane.*
+
+<br />
+
+### 6. Jak nazywa się pierwszy poziom dostępu w chmurze Microsoft Azure?
 
 a) usługa Azure Fabric
 

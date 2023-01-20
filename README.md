@@ -297,7 +297,7 @@ b) statyczny
 
 <br />
 
-*8. Sieciowa grupa zabezpieczeń to:*
+### 8. Sieciowa grupa zabezpieczeń to:
 
 **a) zbiór reguł bezpieczeństwa kontrolujących przepływ ruchu**
 
@@ -307,7 +307,13 @@ c) obie powyższe odpowiedzi są poprawne
 
 <br />
 
-*9. Co definiuje sieciowa grupa zabezpieczeń?*
+**Wyjaśnienie:**
+
+*Sieciowa grupa zabezpieczeń jest to zestaw reguł bezpieczeństwa obowiązujących w sieci Azure. Jest to podstawowe narzędzie do kontrolowania komunikacji sieciowej pomiędzy zasobami. Grupy zabezpieczeń dotyczą dwóch rodzajów zasobów: podsieci i interfejsów. W pierwszym przypadku zabezpieczenia obejmują wszystkie urządzenia dołączone do wybranej podsieci, natomiast w drugim tylko jedno urządzenie posiadające dany interfejs.*
+
+<br />
+
+### 9. Co definiuje sieciowa grupa zabezpieczeń? 
 
 a) reguły zabezpieczeń dla ruchu przychodzącego
 
@@ -317,13 +323,21 @@ b) reguły zabezpieczeń dla ruchu wychodzącego
 
 <br />
 
-*10. Do jakiego zasobu można przypisać sieciową grupę zabezpieczeń?*
+**Wyjaśnienie:** 
+
+*W panelu ustawień sieciowej grupy zabezpieczeń widoczne są aktualnie zdefiniowane reguły dotyczące ruchu przychodzącego i wychodzącego.*
+
+<br />
+
+### 10. Do jakiego zasobu można przypisać sieciową grupę zabezpieczeń?*
 
 **a) sieci wirtualnej**
 
 b) interfejsu sieciowego
 
 c) podsieci
+
+<br />
 
 
 ## Rozdział 3

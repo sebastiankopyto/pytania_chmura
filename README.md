@@ -814,7 +814,7 @@ c) obie funkcjonalności
 
 ## Rozdział 7
 
-*1. W niektórych sytuacjach chmura hybrydowa jest jedynym rozwiązaniem ze względu na:*
+### 1. W niektórych sytuacjach chmura hybrydowa jest jedynym rozwiązaniem ze względu na:
 
 a) obowiązujące przepisy
 
@@ -824,7 +824,15 @@ b) dokonane inwestycje
 
 <br />
 
-*2. Sieć lokalną z chmurą Azure można łączyć za pomocą:*
+**Wyjaśnienie:**
+
+*W wielu organizacjach migracja całej infrastruktury do chmury nie wchodzi w grę, mimo że decydenci są świadomi korzyści wynikających z takiego kroku. Jest tak z kilku powodów. Na przykład trudno jest firmie zrezygnować z lokalnej infrastruktury, w którą zostały **zainwestowane znaczne środki**. Aby utworzyć lokalne centrum danych, trzeba było ponieść nakłady finansowe na odpowiednie pomieszczenie, sieć, serwery, macierze i oprogramowanie. Rezygnacja z tych zasobów i kolejne wydatki na usługi chmurowe nie mają żadnego uzasadnienia biznesowego.*
+
+*Innym powodem są przepisy prawne, które nie pozwalają przenosić niektórych usług do chmury. Na przykład w niektórych krajach **nie wolno przechowywać danych osobowych obywateli poza granicami państwa**. Jeżeli centrum danych Azure znajduje się za granicą, przeniesienie danych nie jest możliwe i trzeba je przechowywać w lokalnej infrastrukturze*
+
+<br />
+
+### 2. Sieć lokalną z chmurą Azure można łączyć za pomocą:
 
 a) połączenia typu lokacja – lokacja
 
@@ -834,7 +842,15 @@ b) usługi ExpressRoute
 
 <br />
 
-*3. Do utworzenia połączenia typu lokacja – lokacja potrzebna jest:*
+**Wyjaśnienie:**
+
+*Aby połączyć ze sobą infrastruktury lokalną i chmurową, należy skonfigurować połączenie między siecią lokalną a wirtualną siecią Azure. **Może to być połączenie typu punkt – lokacja lub lokacja – lokacja.** Pierwszy rodzaj pozwala łączyć się z siecią Azure za pomocą pojedynczego komputera, a więc stanowi raczej punkt dostępu do chmury. Dlatego nie jest to rzeczywista chmura hybrydowa.*
+
+*Połączenie typu lokacja – lokacja można utworzyć na dwa sposoby: wykorzystując sieć VPN (ang. Virtual Private Network — wirtualna sieć prywatna) lub **usługę ExpressRoute**. Pierwsze rozwiązanie zapewnia szyfrowaną komunikację między dwiema sieciami. Usługa ExpressRoute idzie krok dalej i oferuje dedykowane połączenie pomiędzy sieciami lokalną a wirtualną. Takie połączenie jest bardziej stabilne, szybsze, wprowadza mniejsze opóźnienia i jest bezpieczniejsze. Jest to jednak płatna usługa oferowana przez operatora telekomunikacyjnego.*
+
+<br />
+
+### 3. Do utworzenia połączenia typu lokacja – lokacja potrzebna jest:
 
 **a) brama sieci wirtualnej**
 
@@ -844,7 +860,13 @@ c) obie powyższe odpowiedzi są poprawne
 
 <br />
 
-*4. Brama sieci lokalnej przechowuje konfigurację:*
+**Wyjaśnienie:**
+
+*Aby utworzyć połączenie, należy przygotować dwa zasoby Azure: **bramy sieci wirtualnej i lokalnej**.*
+
+<br />
+
+### 4. Brama sieci lokalnej przechowuje konfigurację:
 
 a) sieci wirtualnej
 
@@ -854,7 +876,7 @@ c) obie powyższe odpowiedzi są poprawne
 
 <br />
 
-*5. Czy z portalu Azure można pobrać konfigurację urządzenia VPN?*
+### 5. Czy z portalu Azure można pobrać konfigurację urządzenia VPN?
 
 a) tak
 
@@ -864,7 +886,7 @@ c) nie
 
 <br />
 
-*6. Jaki jest zalecany model wdrożenia połączenia równorzędnego?*
+### 6. Jaki jest zalecany model wdrożenia połączenia równorzędnego?
 
 **a) Resource Manager**
 
@@ -874,7 +896,13 @@ c) obie powyższe odpowiedzi są poprawne
 
 <br />
 
-*7. Aby móc zarządzać tożsamością użytkowników w chmurze hybrydowej, należy wdrożyć:*
+**Wyjaśnienie:**
+
+*Ustawienia komunikacji równorzędnej są dostępne w widoku sieci wirtualnej w opcji Komunikacje równorzędne. Po kliknięciu przycisku Dodaj należy podać nazwę komunikacji i wybrać model wdrożenia: **Resource Manager lub Klasyczny**. **Zalecany jest pierwszy model**, gdyż umożliwia podanie identyfikatora zasobu albo wybranie subskrypcji i sieci wirtualnej, z którą trzeba nawiązać komunikację.*
+
+<br />
+
+### 7. Aby móc zarządzać tożsamością użytkowników w chmurze hybrydowej, należy wdrożyć:
 
 a) kontroler domeny w grupie odzyskiwania
 

@@ -199,7 +199,7 @@ c) konfiguracja jako kod
 
 ## Rozdział 2
 
-*1. Jaki model usług wykorzystuje sieć Azure?*
+### 1. Jaki model usług wykorzystuje sieć Azure?
 
 a) IaaS
 
@@ -209,7 +209,7 @@ b) PaaS
 
 <br />
 
-*2. Co definiuje zakres adresów IP?*
+### 2. Co definiuje zakres adresów IP?
 
 a) maska podsieci
 
@@ -217,9 +217,13 @@ a) maska podsieci
 
 c) RIP
 
+**Wyjaśnienie:** 
+
+*Kolejnym parametrem jest przestrzeń adresowa definiująca liczbę dostępnych adresów IP. Wykorzystywany jest tu format CIDR (ang. Classless Interdomain Routing — bezklasowe trasowanie międzydomenowe).*
+
 <br />
 
-*3. Jakie usługi są dołączane do sieci wirtualnej za pomocą punktów końcowych?*
+### 3. Jakie usługi są dołączane do sieci wirtualnej za pomocą punktów końcowych?
 
 a) maszyny wirtualne
 
@@ -229,7 +233,13 @@ c) SaaS
 
 <br />
 
-*4. Domyślnym serwerem DNS w chmurze Azure jest:*
+**Wyjaśnienie:** 
+
+*Za pomocą listy Punkty końcowe usługi możesz z podsiecią skojarzyć usługi PaaS.*
+
+<br />
+
+### 4. Domyślnym serwerem DNS w chmurze Azure jest:
 
 **a) serwer Azure DNS**
 
@@ -239,7 +249,13 @@ c) niestandardowy serwer DNS
 
 <br />
 
-*5. Kiedy można tworzyć punkty usług?*
+**Wyjaśnienie:** 
+
+*Opcja Serwery DNS umożliwia tworzenie własnych usług DNS w sieci wirtualnej. Jak już wspomniałem, domyślnie stosowana jest usługa oferowana przez Azure, ale można zdefiniować własną, wykorzystując maszynę wirtualną lub publiczny serwer.*
+
+<br />
+
+### 5. Kiedy można tworzyć punkty usług?
 
 a) podczas tworzenia sieci wirtualnej
 

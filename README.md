@@ -2,14 +2,15 @@
 
 ## Rozdział 1
 
-*1. Jakiego rodzaju chmura wymaga posiadania łącza internetowego i pozwala
-każdemu użytkownikowi korzystać z jej usług?*
+### 1. Jakiego rodzaju chmura wymaga posiadania łącza internetowego i pozwala każdemu użytkownikowi korzystać z jej usług?
 
 a) prywatna
 
 b) hostowana
 
 **c) publiczna**
+
+<br />
 
 **Wyjaśnienie:** 
 
@@ -29,7 +30,7 @@ Co najmniej dwa tego rodzaju środowiska są ze sobą bezpośrednio połączone.
 
 <br/>
 
-*2. Jaki model usług daje największą kontrolę nad zasobami?*
+### 2. Jaki model usług daje największą kontrolę nad zasobami?
 
 **a) IaaS**
 
